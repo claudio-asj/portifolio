@@ -4,45 +4,185 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Claudio Jr - Portifólio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+    <link rel="stylesheet" href="./style.css">
+    <!-- Meta Tags Básicas -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Claudio Jr - Portfólio Profissional">
+    <meta name="description"
+        content="Portfólio profissional de Claudio Jr. Desenvolvedor web com 2 anos de experiência no mercado, especializado em sites responsivos e sistemas web. Vamos transformar suas ideias em soluções digitais!">
 
-        * {
-            font-family: "Parkinsans", sans-serif;
-        }
-    </style>
+    <!-- Open Graph para Redes Sociais (Facebook, LinkedIn, etc.) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://claudio-asj.github.io/portifolio/">
+    <meta property="og:title" content="Claudio Jr - Portfólio Desenvolvedor">
+    <meta property="og:description"
+        content="Portfólio profissional de Claudio Jr. Desenvolvedor web com 2 anos de experiência no mercado, especializado em sites responsivos e sistemas web. Vamos transformar suas ideias em soluções digitais!">
+    <meta property="og:image" content="https://claudio-asj.github.io/portifolio/assets/metatag.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://claudio-asj.github.io/portifolio/">
+    <meta name="twitter:title" content="Claudio Jr - Portfólio Profissional">
+    <meta name="twitter:description"
+        content="Portfólio profissional de Claudio Jr. Desenvolvedor web com 2 anos de experiência no mercado, especializado em sites responsivos e sistemas web. Vamos transformar suas ideias em soluções digitais!">
+    <meta name="twitter:image" content="https://claudio-asj.github.io/portifolio/assets/metatag.png">
+
+    <!-- Favicon -->
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+
 </head>
 
 <body class="bg-slate-900 text-slate-50">
-    <main class="min-h-[90vh] bg-slate-800 flex flex-wrap gap-4 justify-center items-center">
+    <main class="min-h-[90vh] bg-slate-800 flex flex-wrap gap-4 justify-center items-center p-8">
         <img src="https://cdn3d.iconscout.com/3d/premium/thumb/professional-website-developer-3d-illustration-download-in-png-blend-fbx-gltf-file-formats--html-logo-java-web-development-pack-illustrations-5242457.png"
-            alt="ilustração de desenvolvedor">
+            alt="ilustração de desenvolvedor" class="w-80">
         <div class="max-w-md">
             <h1 class="text-5xl font-bold text-sky-700">Transformando ideias e <span
-                    class="text-amber-500 font-extrabold">criando soluções.</span> </h1>
+                    class="text-amber-500 font-extrabold">criando soluções.</span></h1>
             <h2 class="mt-2">Desenvolvedor web especializado em criar experiências digitais únicas e sites
                 responsivos que ajudam sua empresa a crescer.</h2>
             <div class="flex gap-4 mt-4">
-                <button class="bg-emerald-700 px-5 py-2 rounded font-bold">Fale comigo</button>
-                <button class="border-emerald-700 text-emerald-700 border-2 px-5 py-2 rounded font-bold">Meus
-                    Projetos</button>
+                <a href="https://wa.me/5521979317341" target="_blank"
+                    class="bg-emerald-700 px-5 py-2 rounded font-bold">Fale comigo</a>
+                <a href="#projects"
+                    class="border-emerald-700 text-emerald-700 border-2 px-5 py-2 rounded font-bold">Meus
+                    Projetos</a>
             </div>
             <div class="flex items-center gap-2 mt-4">
-                <i class="ph ph-envelope text-2xl"></i> cla.junior21@gmail.com
+                <i class="ph ph-envelope text-2xl"></i>
+                <span>cla.junior21@gmail.com</span>
             </div>
             <div class="flex gap-4 mt-2 text-2xl">
-                <a href="#">
+                <a href="https://www.instagram.com/claudio_almeida" target="_blank">
                     <i class="ph ph-instagram-logo"></i>
                 </a>
-                <a href="#">
+                <a href="https://github.com/claudio-asj" target="_blank">
                     <i class="ph ph-github-logo"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/claudio-junior-537319162/" target="_blank">
+                    <i class="ph ph-linkedin-logo"></i>
                 </a>
             </div>
         </div>
     </main>
+
+    <section id="services" class=" text-slate-50 py-12 px-8">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-sky-500 mb-6">Serviços</h2>
+            <div class="flex flex-wrap justify-center gap-8">
+                <div class="max-w-sm bg-slate-700 rounded-lg p-6 shadow-lg">
+                    <h3 class="text-2xl font-bold text-amber-500 mb-4">Landing Pages</h3>
+                    <p class="text-sm leading-relaxed">
+                        Criação de páginas rápidas, otimizadas para conversão e SEO, ajudando a atrair clientes.
+                    </p>
+                </div>
+                <div class="max-w-sm bg-slate-700 rounded-lg p-6 shadow-lg">
+                    <h3 class="text-2xl font-bold text-amber-500 mb-4">Sistemas Web</h3>
+                    <p class="text-sm leading-relaxed">
+                        Desenvolvimento de sistemas personalizados para empresas, com foco em desempenho e usabilidade.
+                    </p>
+                </div>
+                <div class="max-w-sm bg-slate-700 rounded-lg p-6 shadow-lg">
+                    <h3 class="text-2xl font-bold text-amber-500 mb-4">Aplicativos Mobile</h3>
+                    <p class="text-sm leading-relaxed">
+                        Criação de aplicativos nativos ou híbridos, garantindo uma experiência fluida no mobile.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects" class="p-8">
+        <h2 class="text-4xl font-bold text-center text-sky-700">Meus Projetos</h2>
+        <div id="projects-container" class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Projetos serão carregados dinamicamente -->
+        </div>
+    </section>
+
+    <section id="cta" class="bg-emerald-700 text-slate-50 py-12 px-8 text-center">
+        <h2 class="text-4xl font-bold">Pronto para transformar sua ideia?</h2>
+        <p class="mt-4 text-lg">Vamos conversar e construir algo incrível juntos!</p>
+        <a href="https://wa.me/5521979317341" target="_blank"
+            class="mt-6 inline-block bg-slate-900 text-white px-6 py-3 rounded-lg font-bold hover:bg-slate-700 transition">
+            Entre em Contato
+        </a>
+    </section>
+
+
+    <section id="about" class="bg-slate-900 text-slate-50 py-12 px-8">
+        <div class="container mx-auto flex flex-wrap items-center justify-center gap-8">
+            <img src="./assets/minha-foto.jpg" alt="Foto de Claudio Jr" class="rounded-full max-w-xs shadow-lg">
+
+            <!-- Texto -->
+            <div class="max-w-md">
+                <h2 class="text-4xl font-bold text-sky-700 mb-4">Sobre Mim</h2>
+                <p class="text-lg leading-relaxed">
+                    Olá, sou <span class="font-bold text-amber-500">Claudio Jr</span>, desenvolvedor web com
+                    <span class="font-bold text-sky-500">2 anos de experiência</span> no mercado de trabalho.
+                    Sou especialista em criar soluções digitais de alto impacto, incluindo aplicativos, sistemas
+                    web e landing pages.
+                </p>
+                <p class="mt-4 text-lg leading-relaxed">
+                    Atualmente, estou cursando <span class="font-bold text-sky-500">Ciência da Computação</span> na UFRJ
+                    e
+                    <span class="font-bold text-sky-500">Análise de Sistemas</span> na Estácio. Minha missão é
+                    transformar
+                    ideias em experiências digitais incríveis para ajudar empresas a crescerem.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="bg-slate-800 text-slate-50 py-12 px-8">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-sky-500 text-center mb-12">Perguntas Frequentes</h2>
+            <div id="faq-container" class="space-y-6 max-w-lg mx-auto">
+                <!-- FAQs serão carregados dinamicamente aqui -->
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="bg-slate-900 text-slate-50 py-6">
+        <div class="container mx-auto text-center">
+            <!-- Título -->
+            <h3 class="text-2xl font-bold text-sky-500 mb-4">Claudio Jr.</h3>
+
+            <!-- Links de Contato -->
+            <div class="flex justify-center gap-6 text-3xl">
+                <a href="https://wa.me/5521979317341" target="_blank" class="hover:text-emerald-500 transition-colors"
+                    aria-label="WhatsApp">
+                    <i class="ph ph-whatsapp-logo"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" class="hover:text-pink-500 transition-colors"
+                    aria-label="Instagram">
+                    <i class="ph ph-instagram-logo"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/claudio-junior-537319162/" target="_blank"
+                    class="hover:text-blue-500 transition-colors" aria-label="LinkedIn">
+                    <i class="ph ph-linkedin-logo"></i>
+                </a>
+                <a href="https://github.com/claudio-asj" target="_blank" class="hover:text-gray-500 transition-colors"
+                    aria-label="GitHub">
+                    <i class="ph ph-github-logo"></i>
+                </a>
+            </div>
+
+            <!-- Rodapé Inferior -->
+            <p class="mt-4 text-sm text-slate-400">
+                &copy; 2024 Claudio Jr - Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+
+
+
+    <script src="./script.js"></script>
 </body>
 
 </html>

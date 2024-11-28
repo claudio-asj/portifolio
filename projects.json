@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Landing Page Nutricionista",
+        "image": "./assets/exemplo.png",
+        "description": "Uma landing page criada para nutricionistas atraírem novos clientes.",
+        "link": "https://example.com/nutricionista"
+    },
+    {
+        "name": "E-commerce de Bebidas",
+        "image": "./assets/exemplo.png",
+        "description": "Plataforma de vendas de bebidas com foco em usabilidade e design responsivo.",
+        "link": "https://example.com/bebidas"
+    },
+    {
+        "name": "Gestor de Treinos",
+        "image": "./assets/exemplo.png",
+        "description": "Aplicação para organização de treinos com armazenamento local.",
+        "link": "https://example.com/gestor-treinos"
+    },
+    {
+        "name": "Sistema de Adoção de Pets",
+        "image": "./assets/exemplo.png",
+        "description": "Uma rede social para conectar adotantes e pets em busca de um lar.",
+        "link": "https://example.com/adocao-pets"
+    },
+    {
+        "name": "Dashboard de Vendas",
+        "image": "./assets/exemplo.png",
+        "description": "Dashboard completo para controle e visualização de vendas e métricas.",
+        "link": "https://example.com/dashboard-vendas"
+    },
+    {
+        "name": "Aplicativo de Delivery",
+        "image": "./assets/exemplo.png",
+        "description": "Aplicativo focado em entregas rápidas com uma interface amigável.",
+        "link": "https://example.com/app-delivery"
+    },
+    {
+        "name": "Portfolio Criativo",
+        "image": "./assets/exemplo.png",
+        "description": "Site para artistas e designers exibirem seus trabalhos de forma impactante.",
+        "link": "https://example.com/portfolio-criativo"
+    },
+    {
+        "name": "Blog de Tecnologia",
+        "image": "./assets/exemplo.png",
+        "description": "Blog otimizado para SEO com artigos sobre tecnologia e inovação.",
+        "link": "https://example.com/blog-tecnologia"
+    },
+    {
+        "name": "Sistema de Reservas",
+        "image": "./assets/exemplo.png",
+        "description": "Sistema online para gerenciamento de reservas em hotéis e pousadas.",
+        "link": "https://example.com/sistema-reservas"
+    }
+]

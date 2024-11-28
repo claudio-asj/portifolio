@@ -1,0 +1,25 @@
+{
+    "faq": [
+      {
+        "question": "Quanto tempo leva para criar um site?",
+        "answer": "O tempo depende da complexidade, mas, em média, um site simples pode ser concluído em cerca de 2 semanas."
+      },
+      {
+        "question": "Você oferece suporte após a entrega?",
+        "answer": "Sim! Ofereço suporte para ajustes e melhorias, com pacotes de manutenção opcionais."
+      },
+      {
+        "question": "Quais tecnologias você usa?",
+        "answer": "Trabalho com tecnologias modernas como React, Vue.js, Tailwind, Node.js, entre outras."
+      },
+      {
+        "question": "Como funciona o pagamento?",
+        "answer": "Os pagamentos são divididos em etapas: entrada inicial, metade durante o projeto e o restante na entrega."
+      },
+      {
+        "question": "Você faz aplicativos móveis?",
+        "answer": "Sim, desenvolvo aplicativos móveis híbridos ou nativos, dependendo da necessidade do cliente."
+      }
+    ]
+  }
+  
