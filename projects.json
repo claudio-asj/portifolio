@@ -1,19 +1,19 @@
 [
     {
         "name": "Site para Software House",
-        "image": "./assets/teste.jpg",
+        "image": "./assets/1.jpg",
         "description": "Desenvolvida para criar uma presença online para essa empresa desenvolvedora de Software",
         "link": "https://www.cognati.tech"
     },
     {
         "name": "Landing Page Nutricionista",
-        "image": "./assets/exemplo.png",
+        "image": "./assets/2.jpg",
         "description": "Uma landing page criada para nutricionistas atraírem novos clientes.",
         "link": "https://claudio-asj.github.io/LP-exemplo-nutricionista/"
     },
     {
         "name": "Cardapio Digital",
-        "image": "./assets/exemplo.png",
+        "image": "./assets/3.jpg",
         "description": "Um cardapio digital alimentado por uma planilha, facilitando a atualização em tempo real de produtos.",
         "link": "https://doce-mania.vercel.app"
     }
