@@ -16,6 +16,11 @@
         "image": "./assets/3.jpg",
         "description": "Um cardapio digital alimentado por uma planilha, facilitando a atualização em tempo real de produtos.",
         "link": "https://doce-mania.vercel.app"
+    },
+    {
+        "name": "091VIP - Catálogo Dinâmico de Produtos",
+        "image": "./assets/4.jpg",
+        "description": "Desenvolvimento de um site para a 091VIP, voltado para a exposição de produtos da loja, com atualização automática de preços, promoções, disponibilidade e novas adições de produtos. As informações são sincronizadas diretamente a partir de uma planilha, garantindo que o catálogo esteja sempre atualizado em tempo real.",
+        "link": "https://091vip.vercel.app/"
     }
-    
 ]
