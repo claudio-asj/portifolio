@@ -22,5 +22,11 @@
         "image": "./assets/4.jpg",
         "description": "Desenvolvimento de um site para a 091VIP, voltado para a exposição de produtos da loja, com atualização automática de preços, promoções, disponibilidade e novas adições de produtos. As informações são sincronizadas diretamente a partir de uma planilha, garantindo que o catálogo esteja sempre atualizado em tempo real.",
         "link": "https://091vip.vercel.app/"
+    },
+    {
+        "name": "Adotaê - Sistema para adoção de pets",
+        "image": "./assets/5.jpg",
+        "description": "Construir um site com React e utilizei o firebase para autenticação e armazenamento de dados, meu objetivo foi pratiar mais essas ferramentas mas principalmente coloca em prática alguns estudos em Ui/Ux",
+        "link": "https://adotae.vercel.app/"
     }
 ]
